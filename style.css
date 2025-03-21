@@ -1,4 +1,9 @@
+*{
+    margin: 0;
+}
 body {
+    margin-top: 100px;
+    margin-bottom: 100px;
     background-color: black;
     display: flex;
     flex-direction: row;
@@ -7,4 +12,11 @@ body {
 .information {
     flex: 2;
     background-color: white;
+}
+.background {
+
+}
+
+img{
+    max-height: 600px;
 }
