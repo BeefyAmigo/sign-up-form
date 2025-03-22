@@ -5,18 +5,30 @@ body {
     margin-top: 100px;
     margin-bottom: 100px;
     background-color: black;
+}
+
+.container {
     display: flex;
     flex-direction: row;
 }
 
 .information {
+    outline: 2px solid red;
     flex: 2;
     background-color: white;
 }
 .background {
-
+outline: 2px solid red;
 }
 
-img{
-    max-height: 600px;
+.description {
+    outline: 2px solid red;
+}
+
+.form {
+    outline: 2px solid red;
+}
+
+.submit {
+    outline: 2px solid red;
 }
