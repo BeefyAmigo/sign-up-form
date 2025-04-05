@@ -7,7 +7,9 @@ body {
 }
 
 .container {
-    
+    display: flex;
+    justify-content: center;
+    height: 100vh;
 }
 
 .background {
@@ -16,8 +18,11 @@ body {
 }
 
 .information {
-    outline: 2px solid red;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-evenly;
     background-color: white;
+    outline: 2px solid red;
 }
 
 .description {
