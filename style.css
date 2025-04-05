@@ -1,48 +1,33 @@
 *{
+    padding: 0;
     margin: 0;
 }
 body {
-    margin-top: 80px;
-    margin-bottom: 80px;
     background-color: black;
 }
 
 .container {
-    display: flex;
-    flex-direction: row;
-    height: 600px;
-    width: 100%;
+    
 }
 
 .background {
     background-color: white;
-    height: 100%;
-    width: 40%;
     outline: 2px solid red;
 }
 
 .information {
-    height: 100%;
-    width: 60%;
     outline: 2px solid red;
-    flex: 2;
     background-color: white;
 }
 
 .description {
-    height: 35%;
-    width: 100%;
     outline: 2px solid red;
 }
 
 .form {
-    height: 30%;
-    width: 100%;
     outline: 2px solid red;
 }
 
 .submit {
-    height: 35%;
-    width: 100%;
     outline: 2px solid red;
 }
